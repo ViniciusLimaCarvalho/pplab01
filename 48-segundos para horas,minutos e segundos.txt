@@ -1,0 +1,27 @@
+#include <stdio.h>
+ 
+int main(){
+    int totsegundos,horas,minutos,segundos;
+    printf("insira um valor em segundos\n");
+    scanf("%d",&totsegundos);
+    if(totsegundos >= 3600){
+         horas = totsegundos / 3600;
+         segundos = totsegundos % 3600;
+         minutos = segundos / 60;
+         segundos = segundos % 60;
+         printf("%d horas %d minutos %d segundos",horas,minutos,segundos);
+    }
+    else{
+        if(totsegundos >= 60){
+            minutos = totsegundos / 60;
+            segundos = totsegundos % 60;
+            printf("%d minutos %d segundos",minutos,segundos);
+        }    
+        else{
+                segundos = totsegundos;
+                printf("%d segundos",segundos);
+        }
+        
+    }
+return 0;
+}

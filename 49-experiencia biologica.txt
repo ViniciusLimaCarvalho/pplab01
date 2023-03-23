@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int hinicio, minicio, sinicio, duracao, htermino, mtermino, stermino;
+    printf("insira o horario de inicio (hora, minuto e segundo)\n");
+    scanf("%d %d %d", &hinicio, &minicio, &sinicio);
+    printf("insira a duracao da experiencia em segundos\n");
+    scanf("%d", &duracao);
+    int htotinicio = hinicio * 3600 + minicio * 60 + sinicio;
+    int htottermino = htotinicio + duracao;
+    htermino = htottermino / 3600;
+    htottermino = htottermino % 3600;
+    mtermino = htottermino / 60;
+    stermino = htottermino % 60;
+    printf("o horario de termino da experiencia eh %02d:%02d:%02d\n", htermino, mtermino, stermino);
+    return 0;
+}

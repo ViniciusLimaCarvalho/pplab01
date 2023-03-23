@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+
+int main(){
+    float x,y; //estabelece duas variáveis reais 'x' e 'y'
+    scanf("%f",&x); //lê um valor para 'x' em graus Kelvin
+    y = (x - 273.15); //transforma o valor em Kelvin para Celsius
+    printf("%f",y); //imprime o valor em Celsius
+    return 0;
+}
+

@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(){
+    float horas,valor,total;
+    printf("insira o tanto de horas trabalhadas no mes");
+    scanf("%f",&horas);
+    printf("qual o valor pago pela hora de trabalho?");
+    scanf("%f",&valor);
+    total = (horas * valor) + 0.1 * (horas * valor);
+    printf("o valor pago ao funcionario eh %.2f",total);
+    return 0;
+   
+
+
+
+
+
+
+
+}

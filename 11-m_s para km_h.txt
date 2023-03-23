@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+
+int main(){
+    float x,y; //estabelece duas variáveis reais 'x' e 'y'
+    scanf("%f",&x); //lê um valor para x em m/s
+    y = (x * 3.6); //converte valor em m/s para km/h
+    printf("%f km/h",y); //imprime o resultado da conversão anterior em km/h
+    return 0;
+}
+

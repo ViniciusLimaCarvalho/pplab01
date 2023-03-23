@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+#define PI 3.141592
+
+int main(){
+    printf("insira um valor para o raio \n");
+    float a,b, c;
+    scanf("%f",&a);
+    printf("insira um valor para a altura \n");
+    scanf("%f",&b);
+    c = (PI * (pow(a,2))) * b;
+    printf("o volume do cilindro circular eh %.2f",c);
+    return 0; 
+
+
+
+
+
+
+
+}
