@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+
+int main(){
+    float x,y; //estabelece duas variáveis reais 'x' e 'y'
+    scanf("%f",&x); //lê um valor para a variável 'x' em milhas
+    y = x * 1.61; //transforma o valor de milhas para quilômetros
+    printf("%f km/h",y); //imprime o resultado da conversão anterior em quilômetros
+    return 0;
+}
+

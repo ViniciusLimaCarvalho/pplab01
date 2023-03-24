@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main(){
+    char ch,x;
+    printf("insira uma letra maiuscula\n");
+    scanf("%c",&ch);
+    if(ch >= 65){
+        if(ch <= 90){
+        x = ch + 32;
+        printf("a letra minuscula eh %c",x);
+        }
+        else{
+        printf("essa letra nao eh maiuscula");
+        }
+    }
+    else{
+        printf("essa letra nao eh maiuscula");
+    }
+    return 0;
+
+
+
+
+
+
+}
+

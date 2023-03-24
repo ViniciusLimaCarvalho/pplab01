@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main(){
+    float vtotal,ds10,vpar,cvvista,cvpar;
+    printf("insira o valor total a pagar");
+    scanf("%f",&vtotal);
+    ds10 = vtotal - (0.1 * vtotal);
+    vpar = vtotal / 3;
+    cvvista = 0.05 * ds10;
+    cvpar = 0.05 * vtotal;
+    printf("o total a pagar com desconto de 10 porcento eh %.2f\n",ds10);
+    printf("o valor de cada parcela, no valor de 3x sem juros eh %.2f\n",vpar);
+    printf("a comissao do vendedor, no caso da venda ser a vista eh %.2f\n",cvvista);
+    printf("a comissao do vendedor, no caso da venda ser parcelada eh %.2f\n",cvpar);
+    return 0;
+
+
+
+
+
+
+}

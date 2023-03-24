@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+    float salariobase,salarioareceber;
+    printf("insira o salario-base\n");
+    scanf("%f",&salariobase);
+    salarioareceber = (salariobase + (salariobase * 0.05)) - (salariobase * 0.07);
+    printf("o salario a receber eh %.2f",salarioareceber);
+    return 0;
+
+
+
+
+
+
+}

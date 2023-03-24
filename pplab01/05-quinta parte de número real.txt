@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+
+int main(){
+    float x,y; //estabelece uma variável real 'x' e uma 'y'
+    scanf("%f",&x); //lê um valor para a variável 'x'
+    y = x / 5; //calcula a quinta parte de 'x'
+    printf("%f",y); //imprime o valor da última operação
+}

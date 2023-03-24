@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+#define PI 3.141592
+
+int main(){
+    float x,y;
+    scanf("%f",&x);
+    y = PI * pow(x,2);
+    printf("a area eh %.2f",y);
+    return 0; 
+
+
+
+
+
+
+
+}

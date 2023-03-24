@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+float x,y;
+scanf("%f",&x);//lê valor para x em metros cubicos
+y = x * 1000;//converte metros cubicos em litros
+printf("%.2f litros",y);//imprime o valor da conversao em litros
+return 0;
+
+
+
+
+
+
+
+}

@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+    printf("insira o valor do salario \n");
+    float x,y;
+    scanf("%f",&x);
+    y = x + (0.25 * x);
+    printf("o valor do novo salario eh %.2f",y);
+    return 0; 
+
+
+
+
+
+
+
+}

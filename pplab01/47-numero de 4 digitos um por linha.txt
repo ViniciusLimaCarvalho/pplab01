@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main(){
+    int nlido,algarismo1,algarismo2,algarismo3,algarismo4;
+    printf("insira um numero de quatro digitos\n");
+    scanf("%d",&nlido);
+    if(nlido>=1000){
+        if(nlido<=9999){
+            algarismo1 = nlido / 1000;
+            algarismo2 = (nlido / 100) - (algarismo1 * 10);
+            algarismo3 = (nlido / 10) - (algarismo1 * 100) - (algarismo2 * 10);
+            algarismo4 = nlido - (algarismo1 * 1000) - (algarismo2 * 100) - (algarismo3 * 10);
+            printf("%d\n%d\n%d\n%d",algarismo1,algarismo2,algarismo3,algarismo4);
+        }
+        else{
+            printf("nao eh um numero de quatro digitos");
+        }
+    }
+    else{
+        printf("nao eh um numero de quatro digitos");
+    }
+    return 0;
+
+
+
+
+
+}
